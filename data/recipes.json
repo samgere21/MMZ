@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "name": "Doro Wat",
+    "category": "Main",
+    "time": "1 hr 30 min",
+    "servings": 4,
+    "spicy": true,
+    "emoji": "🍗",
+    "ingredients": [
+      "4 large onions, finely chopped",
+      "1/2 cup niter kibbeh (spiced butter) or oil",
+      "3 tbsp berbere spice blend",
+      "4 cloves garlic, minced",
+      "1 tbsp grated ginger",
+      "1 whole chicken, cut into pieces",
+      "4 hard-boiled eggs, peeled",
+      "Juice of 1 lemon"
+    ],
+    "instructions": [
+      "Cook the onions slowly in a dry pot, stirring often, until deeply softened.",
+      "Stir in the niter kibbeh, then the berbere, garlic and ginger; cook a few minutes until fragrant.",
+      "Add the chicken pieces and enough water to just cover; simmer, covered, until the chicken is tender.",
+      "Nestle in the boiled eggs for the last 10 minutes so they soak up the sauce.",
+      "Finish with lemon juice and serve hot with injera."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Kitfo",
+    "category": "Main",
+    "time": "30 min",
+    "servings": 3,
+    "spicy": true,
+    "emoji": "🥩",
+    "ingredients": [
+      "500g very finely minced lean beef",
+      "3 tbsp niter kibbeh (spiced butter), warmed",
+      "1-2 tbsp mitmita spice blend",
+      "1 clove garlic, crushed",
+      "Ayib (fresh cheese), to serve",
+      "Gomen (collard greens), to serve"
+    ],
+    "instructions": [
+      "Warm the niter kibbeh gently until just melted, not hot.",
+      "Mix the mitmita and garlic into the warm butter.",
+      "Fold the seasoned butter through the minced beef until evenly coated.",
+      "Serve immediately, mounded on a plate with ayib and gomen alongside."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tibs",
+    "category": "Main",
+    "time": "25 min",
+    "servings": 3,
+    "spicy": true,
+    "emoji": "🍖",
+    "ingredients": [
+      "500g beef or lamb, cut into cubes",
+      "2 onions, sliced",
+      "1 green pepper, sliced",
+      "2 cloves garlic, minced",
+      "1 sprig rosemary",
+      "1-2 tbsp berbere or awaze paste",
+      "2 tbsp oil"
+    ],
+    "instructions": [
+      "Sear the meat in hot oil in a wide pan until browned on all sides.",
+      "Add the onions and pepper, and cook until softened.",
+      "Stir in garlic, rosemary and berbere; cook a few more minutes.",
+      "Serve sizzling, straight from the pan, with injera or bread."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Shiro Wat",
+    "category": "Vegetarian",
+    "time": "30 min",
+    "servings": 4,
+    "spicy": false,
+    "emoji": "🍲",
+    "ingredients": [
+      "1 cup shiro powder (spiced chickpea flour)",
+      "1 onion, finely chopped",
+      "2 cloves garlic, minced",
+      "1 tomato, chopped",
+      "3 tbsp oil",
+      "2-3 cups water"
+    ],
+    "instructions": [
+      "Soften the onion in oil, then add garlic and tomato and cook down.",
+      "Whisk the shiro powder into water until smooth and lump-free.",
+      "Pour into the pan, stirring constantly as it thickens.",
+      "Simmer gently for 10 minutes, adding water if it gets too thick, then serve."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Misir Wat",
+    "category": "Vegetarian",
+    "time": "35 min",
+    "servings": 4,
+    "spicy": true,
+    "emoji": "🍛",
+    "ingredients": [
+      "1 1/2 cups red lentils, rinsed",
+      "1 onion, finely chopped",
+      "2 cloves garlic, minced",
+      "1 tsp grated ginger",
+      "2-3 tbsp berbere spice blend",
+      "1 tbsp tomato paste",
+      "3 tbsp oil",
+      "3 cups water"
+    ],
+    "instructions": [
+      "Cook the onion in oil until golden, then add garlic, ginger and berbere.",
+      "Stir in the tomato paste and cook for a minute.",
+      "Add the lentils and water; bring to a boil, then simmer, stirring occasionally.",
+      "Cook until the lentils break down into a thick stew, about 20 minutes."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Gomen",
+    "category": "Vegetarian",
+    "time": "25 min",
+    "servings": 4,
+    "spicy": false,
+    "emoji": "🥬",
+    "ingredients": [
+      "1 large bunch collard greens, finely shredded",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 tsp grated ginger",
+      "3 tbsp oil"
+    ],
+    "instructions": [
+      "Soften the onion in oil, then add garlic and ginger.",
+      "Add the shredded greens in batches, stirring until wilted.",
+      "Cover and cook on low heat until tender, about 15 minutes.",
+      "Season to taste and serve warm."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Atkilt Wat",
+    "category": "Vegetarian",
+    "time": "30 min",
+    "servings": 4,
+    "spicy": false,
+    "emoji": "🥕",
+    "ingredients": [
+      "1/2 head cabbage, sliced",
+      "2 carrots, sliced",
+      "2 potatoes, cubed",
+      "1 onion, sliced",
+      "1/2 tsp turmeric",
+      "3 tbsp oil"
+    ],
+    "instructions": [
+      "Soften the onion in oil, then stir in turmeric.",
+      "Add potatoes and carrots first, since they take longest to cook.",
+      "Add the cabbage once the potatoes are almost tender.",
+      "Cover and cook until all the vegetables are soft, stirring occasionally."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Injera",
+    "category": "Bread",
+    "time": "20 min active (3-day ferment)",
+    "servings": 6,
+    "spicy": false,
+    "emoji": "🫓",
+    "ingredients": [
+      "4 cups teff flour",
+      "5 cups water, plus more to thin",
+      "A splash of starter batter from a previous ferment (optional, speeds things up)"
+    ],
+    "instructions": [
+      "Whisk the teff flour and water into a smooth, thin batter.",
+      "Cover loosely and leave at room temperature for 2-3 days to ferment until bubbly and sour.",
+      "Thin the batter with water to a pourable consistency just before cooking.",
+      "Pour in a thin spiral onto a hot, lightly oiled flat pan, cover, and steam-cook until the surface is full of small holes and set."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ambasha",
+    "category": "Bread",
+    "time": "2 hr (incl. rise)",
+    "servings": 8,
+    "spicy": false,
+    "emoji": "🍞",
+    "ingredients": [
+      "4 cups flour",
+      "1 packet active dry yeast",
+      "3 tbsp sugar",
+      "1/2 tsp ground cardamom",
+      "3 tbsp oil",
+      "1 1/4 cups warm water"
+    ],
+    "instructions": [
+      "Dissolve the yeast and a pinch of the sugar in the warm water; let it foam.",
+      "Mix the flour, remaining sugar and cardamom, then work in the oil and yeast mixture.",
+      "Knead until smooth, then let rise, covered, until doubled.",
+      "Shape into a round loaf, score a decorative pattern on top, and bake until golden."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Buna (Coffee Ceremony)",
+    "category": "Drinks",
+    "time": "20 min",
+    "servings": 3,
+    "spicy": false,
+    "emoji": "☕",
+    "ingredients": [
+      "1/2 cup green coffee beans",
+      "Water",
+      "Sugar, to taste",
+      "Popcorn or bread, to serve"
+    ],
+    "instructions": [
+      "Wash the green beans, then roast them in a pan over heat, stirring constantly until dark and fragrant.",
+      "Let the beans cool slightly, then grind them coarsely.",
+      "Brew the grounds with water in a jebena (clay coffee pot) over heat until it comes to a boil.",
+      "Pour slowly into small cups, leaving the grounds behind, and serve with popcorn."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Dabo Kolo",
+    "category": "Snacks",
+    "time": "30 min",
+    "servings": 6,
+    "spicy": false,
+    "emoji": "🥨",
+    "ingredients": [
+      "2 cups flour",
+      "3 tbsp oil",
+      "1 tbsp sugar",
+      "1/2 tsp berbere (optional, for a spiced version)",
+      "Water, as needed"
+    ],
+    "instructions": [
+      "Mix the flour, oil, sugar and berbere, then bring together with a little water into a stiff dough.",
+      "Roll into thin ropes and cut into small bite-sized pieces.",
+      "Fry in batches until golden and crisp, or bake at a moderate oven temperature, turning once.",
+      "Cool completely before serving or storing in an airtight container."
+    ]
+  }
+]

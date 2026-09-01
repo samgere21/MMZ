@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Habesha Recipes — Browse & Save Ethiopian Dishes</title>
+<meta name="description" content="Browse traditional Ethiopian recipes, filter by category, and save your favourites to a personal cookbook.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#recipes-heading">Skip to recipes</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <h1 class="logo"><span aria-hidden="true">📖</span> Habesha Recipes</h1>
+    <div class="search-wrap">
+      <label for="search" class="visually-hidden">Search recipes</label>
+      <input type="search" id="search" placeholder="Search recipes… (e.g. shiro)" autocomplete="off">
+    </div>
+  </div>
+  <div class="tilet-band" aria-hidden="true"></div>
+</header>
+
+<main class="app-main">
+
+  <section id="recipes-section" aria-labelledby="recipes-heading">
+    <div class="recipes-toolbar">
+      <h2 id="recipes-heading">Recipes</h2>
+      <div class="toolbar-controls">
+        <label for="category" class="visually-hidden">Filter by category</label>
+        <select id="category">
+          <option value="">All categories</option>
+        </select>
+        <label class="spicy-toggle">
+          <input type="checkbox" id="spicy-only">
+          🌶️ Spicy only
+        </label>
+      </div>
+    </div>
+    <div id="recipes" aria-live="polite" aria-label="Recipe results"></div>
+  </section>
+
+  <aside id="cookbook-section" aria-labelledby="cookbook-heading">
+    <div class="cookbook-header">
+      <h2 id="cookbook-heading">My Cookbook</h2>
+      <span id="cookbook-count" class="cookbook-count">0 saved</span>
+    </div>
+
+    <ul id="cookbook-list" aria-live="polite" aria-label="Recipes saved to your cookbook"></ul>
+
+    <button id="clear-cookbook" type="button" class="btn-ghost" disabled>Clear cookbook</button>
+  </aside>
+
+</main>
+
+<footer class="site-footer">
+  <p>A CodeOps Module 2 project · recipes for the Habesha table</p>
+</footer>
+
+<dialog id="recipe-dialog" aria-labelledby="dialog-title">
+  <div class="dialog-inner">
+    <button id="dialog-close" type="button" class="dialog-close" aria-label="Close recipe">✕</button>
+    <div id="dialog-content"><!-- filled by JS --></div>
+  </div>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
